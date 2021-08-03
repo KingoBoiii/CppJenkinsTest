@@ -7,6 +7,7 @@ workspace "JenkinsTest"
 project "JenkinsTest"
 	kind "ConsoleApp"
 	language "C++"
+	location "JenkinsTest"
 	targetdir "bin/{cfg.buildcfg}"
 
 	files {
