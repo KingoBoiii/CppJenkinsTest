@@ -4,7 +4,7 @@ workspace "JenkinsTest"
 		"Release"
 	}
 
-project "Sandbox"
+project "JenkinsTest"
 	kind "ConsoleApp"
 	language "C++"
 	targetdir "bin/{cfg.buildcfg}"
