@@ -3,17 +3,15 @@ pipeline {
     stages {
         stage('GenerateProj') {
             steps {
-                'scripts/GenerateProjects.bat'
+                bat(returnStdout: true, script: 'scripts/GenerateProjects.bat')
             }
         }
         stage('Compile') {
             steps {
-                'scripts/Compile.bat'
+                bat(returnStdout: true, script: 'scripts/Compile.bat')
             }
         }
         stage('Test') {
-            steps {
-            }
         }
     }
 }
