@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('GenerateProj') {
             steps {
-                bat(script: 'vendor\\premake\\bin\\premake5 vs2019')
+                bat(script: 'scripts/GenerateProjects.bat')
             }
         }
         stage('Compile') {
