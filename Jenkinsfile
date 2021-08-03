@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing output executeable file'
-                bat(script: 'bin/Debug/JenkinsTest.exe')
+                bat(script: 'bin\\Debug\\JenkinsTest.exe')
             }
         }
     }
