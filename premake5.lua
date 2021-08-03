@@ -12,6 +12,7 @@ project "JenkinsTest"
 	targetdir "bin/%{cfg.buildcfg}"
 
 	files {
+		"**.cpp",
 		"Source/**.cpp",
 		"Source/**.h",
 	}
