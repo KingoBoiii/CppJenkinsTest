@@ -1,4 +1,5 @@
 workspace "JenkinsTest"
+	architecture "x86_64"
 	configurations { 
 		"Debug",
 		"Release"
@@ -8,7 +9,7 @@ project "JenkinsTest"
 	kind "ConsoleApp"
 	language "C++"
 	location "JenkinsTest"
-	targetdir "bin/{cfg.buildcfg}"
+	targetdir "bin/%{cfg.buildcfg}"
 
 	files {
 		"Source/**.cpp",
