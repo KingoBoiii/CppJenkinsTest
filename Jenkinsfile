@@ -3,13 +3,11 @@ pipeline {
     stages {
         stage('GenerateProj') {
             steps {
-                echo 'Generating Projects...'
                 bat(script: 'scripts/GenerateProjects.bat')
             }
         }
         stage('Compile') {
             steps {
-                echo 'Compiling...'
                 bat(script: 'scripts/Compile.bat')
             }
         }
