@@ -3,12 +3,14 @@ pipeline {
     stages {
         stage('GenerateProj') {
             steps {
-                bat(returnStdout: true, script: 'scripts/GenerateProjects.bat')
+                echo 'Generating Projects...'
+                bat(script: 'scripts/GenerateProjects.bat')
             }
         }
         stage('Compile') {
             steps {
-                bat(returnStdout: true, script: 'scripts/Compile.bat')
+                echo 'Compiling...'
+                bat(script: 'scripts/Compile.bat')
             }
         }
         stage('Test') {
