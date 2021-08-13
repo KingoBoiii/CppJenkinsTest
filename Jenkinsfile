@@ -13,7 +13,7 @@ pipeline {
                 echo "Compiling..."
                 bat(script: 'scripts/Compile.bat')
                 echo "Successfully Compiled..."
-                archiveArtifacts artifacts: 'bin/Debug/*.exe', fingerprint: true
+                archiveArtifacts artifacts: 'bin/Release/*.exe', fingerprint: true
             }
         }
         stage('Test') {
