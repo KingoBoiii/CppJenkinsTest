@@ -13,6 +13,9 @@ int main()
 	std::cout << "Hello, world2!" << std::endl;
 	std::cout << "Hello, world2!" << std::endl;
 	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
+	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
+	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
+	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
 	return 0;
 }
 
