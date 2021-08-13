@@ -16,6 +16,8 @@ int main()
 	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
 	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
 	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
+
+	std::cout << "Final test... Everything should work at this point!" << std::endl;
 	return 0;
 }
 
