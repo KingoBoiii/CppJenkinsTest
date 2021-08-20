@@ -18,6 +18,7 @@ int main()
 	std::cout << "VIRK!!!!!!!!!!!!!!" << std::endl;
 
 	std::cout << "Final test... Everything should work at this point!" << std::endl;
+	std::cout << "Github test!" << std::endl;
 	return 0;
 }
 
