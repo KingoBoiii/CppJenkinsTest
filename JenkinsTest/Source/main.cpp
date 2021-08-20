@@ -19,6 +19,7 @@ int main()
 
 	std::cout << "Final test... Everything should work at this point!" << std::endl;
 	std::cout << "Github test!" << std::endl;
+	std::cout << "Second Github test!" << std::endl;
 	return 0;
 }
 
